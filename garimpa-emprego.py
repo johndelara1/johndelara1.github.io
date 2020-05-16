@@ -4,7 +4,7 @@ import os.path
 import requests
 import re
 import webbrowser
-from googlesearch import search 
+from googlesearch import search
 from bs4 import BeautifulSoup
 from datetime import date
 from IPython.display import clear_output
@@ -98,9 +98,9 @@ lv3 = 2.5
 lv4 = 2.0
 
 # Dictionary of keywords / use uppercase at first character / maximum 2 words
-keys_lv1 = {}.fromkeys(['Visao Computacional', 'Computer Vision'],lv1)
+keys_lv1 = {}.fromkeys(['Data Scientist', 'Data Science', 'Cientista Dados', 'Ciencia Dados', 'Engenheiro dados', 'Data Engineer', 'Engenharia Dados', 'Analista Dados', 'Visao Computacional', 'Computer Vision'],lv1)
 keys_lv2 = {}.fromkeys(['Inteligencia Artificial', 'GPU', 'CUDA', 'OpenCV','Projetos', 
-                        'C++', 'Python', 'Programador', 'Engenharia Eletrica', 'Mecatronica', 'Automação', 'Robotica'],lv2)
+                        'RStudio', 'Python', 'Programador', 'Engenharia Eletrica', 'Mecatronica', 'Automação', 'Robotica'],lv2)
 keys_lv3 = {}.fromkeys(['Projetista', 'Desenvolvedor'],lv3)
 
 # Dictionary of auxiliary keywords to find jobs / join the main key
